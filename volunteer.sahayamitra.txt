@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer Sign-up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 500px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background-image: url('https://media.istockphoto.com/id/1395007095/vector/diverse-people-round-circle-seamless-pattern.jpg?s=1024x1024&w=is&k=20&c=yOwf_km2MzfSGK9uYWXvo1PZvsn4NKui8FwD6uYGykI='); /* Specify the URL of your background image */
+      background-size: cover;
+      background-position: center;
+      position: relative; /* Add position relative for absolute positioning */
+    }
+
+    .content {
+      margin-bottom: 20px;
+      position: relative; /* Add position relative for z-index */
+    }
+
+    .content::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      z-index: -1; /* Place the background behind the text */
+    }
+
+    .content p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+      position: relative; /* Add position relative for z-index */
+      z-index: 1; /* Ensure text stays above the background */
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      padding: 10px; /* Add padding to the text */
+      border-radius: 8px; /* Optional: add border radius to match container */
+    }
+
+    form {
+      margin-top: 20px;
+      background-color: rgba(255, 255, 255, 0.8); /* Adding a slight opacity to the form background */
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    #confirmationMessage {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Added new CSS */
+    .text-background {
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    /* Added new CSS */
+    .back-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #f44336; /* Red color */
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    /* Added new CSS */
+    .back-button:hover {
+      background-color: #d32f2f; /* Darker red color on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-background">
+      <h1>What do Volunteers do?</h1>
+      <p>Volunteers play a crucial role in supporting our community by dedicating their time and skills to various projects and initiatives.</p>
+      <h2>Sign Up Here</h2>
+    </div>
+
+    <form id="volunteerForm">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="profession">Profession:</label>
+      <input type="text" id="profession" name="profession" required>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <button class="back-button" onclick="window.history.back()">Back</button>
+
+    <p id="confirmationMessage"></p>
+  </div>
+
+  <script>
+    document.getElementById("volunteerForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent the default form submission
+      
+      // Get form data
+      const formData = new FormData(event.target);
+      const fullName = formData.get("fullName");
+      const age = formData.get("age");
+      const gender = formData.get("gender");
+      const contact = formData.get("contact");
+      const email = formData.get("email");
+      const profession = formData.get("profession");
+
+      // Here you can send the form data to your server or process it further
+      // For this example, we'll just display a confirmation message
+      const confirmationMessage = document.getElementById("confirmationMessage");
+      confirmationMessage.textContent = Thank you, ${fullName}! You are now a volunteer.;
+    });
+  </script>
+</body>
+</html>

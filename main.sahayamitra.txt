@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- aos cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- link css, media and favicon -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <script src="script.js"></script>
+
+    <title>NGO Website</title>
+  </head>
+
+  <body>
+
+
+    <style>
+      #nav_bar {
+        z-index: 1000; /* Set a high z-index value */
+        background-color: white; /* Optionally, set a background color */
+      }
+    </style>
+    
+    <!-- navbar -->
+ <style>
+  #nav_bar {
+    z-index: 1000; /* Set a high z-index value */
+    background-color: white; /* Optionally, set a background color */
+  }
+</style>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg sticky-top border-bottom" id="nav_bar">
+  <div class="container-fluid px-md-5">
+    <a class="navbar-brand" href="#">
+      <img src="logo.jpg" alt="" height="65px" id="nav_img">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler"><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end text-center pe-3" id="navbarNav">
+      <ul class="navbar-nav ms-auto"> <!-- Use ms-auto to push to the right -->
+        <li class="nav-item" id="nav_a1">
+          <a class="nav-link active" href="become_volunteer.html">Become a Volunteer</a>
+        </li>
+        <li class="nav-item" id="nav_a1">
+          <a class="nav-link active" href="#event">Join in an Event</a>
+        </li>
+        <li class="nav-item" id="nav_a2">
+          <a class="nav-link active" href="ngo.html">Join in an NGO</a>
+        </li>
+        <li class="nav-item" id="nav_a3">
+          <a class="nav-link active" href="Training.html">Get Trained</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+<head>
+  <!-- Meta tags and links to CSS/JS -->
+  <title>NGO Website</title>
+  <style>
+    /* Style the navigation bar */
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar li {
+      display: inline-block;
+      margin-right: 10px; /* Adjust spacing between links */
+    }
+
+    .navbar li a {
+      text-decoration: none;
+      color: #333; /* Change link color as needed */
+    }
+  </style>
+</head>
+        
+        </div>
+      </div>
+    </nav>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags and links to CSS/JS -->
+  <title>NGO Website</title>
+</head>
+ <div>
+
+<div class="row text-center" id="welcome">
+        <div class="col-12">
+          <img src="love-icon.png" alt="" width="30px" />
+          <h1>WELCOME TO <span>SAHAYA MITRA</span></h1>
+        </div>
+        <div class="col-md-8 offset-md-2 my-md-5">
+          <p style="font-size:18px;">
+            God has obligated to fulfill the extent of our needs.
+            <br class="d-none d-md-block" />
+            That would include food, clothing, shelter, companionship etc.
+            <br class="d-none d-md-block" />
+            
+          </p>
+          <img src="sketch-1.png" alt="" width="320px" />
+          <center>
+            <img
+              src="quote-1.png"
+              alt=""
+              width="50px"
+              class="d-block d-md-none"
+            />
+          </center>
+        </div>
+      </div>
+    </section>
+
+               
+
+<!-- carousel -->
+
+<style>
+  .carousel-item h5,
+  .carousel-item h1 {
+    font-size: xx-large; /* Set the font size larger */
+  }
+
+  .carousel-item .col-md-6 {
+    text-align: right; /* Align the image to the right */
+  }
+</style>
+
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade top_carousel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active container-fluid py-md-5" data-bs-interval="4000">
+      <div class="row align-items-center">
+        <div class="col-md-6 ps-md-5">
+          <h5 class="text-sm-start">
+            Let's, do some work for needy
+            <img src="love-icon.png" alt="" class="m-0" width="40px" />
+          </h5>
+          <h1 class="text-sm-start">
+            We lived enough for ourselves, live a
+            little for the needy.
+          </h1>
+        </div>
+        <div class="col-md-6">
+          <img src="carousel-2.png" alt="" class="img-fluid w-100" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <!-- welcome -->
+    <section
+      class="container"
+      data-aos="fade-up"
+      data-aos-offset="-100"
+      data-aos-delay="40"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
+      
+
+    <!-- what we do -->
+
+<style>
+  .panel-heading img {
+    height: 200px; /* Set a fixed height for the images */
+    width: auto; /* Let the width adjust automatically */
+  }
+</style>
+
+<section id="t-cards" class="mt-5">
+  <div class="container pb-md-5 mb-md-4 mb-3">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h1>
+          What We Do <img src="love-icon.png" alt="" width="28px" />
+        </h1>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="panel panel-default panel-card" data-aos="zoom-in" data-aos-delay="10" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
+          <div class="panel-heading">
+            <img src="img-1.jpg" alt="" />
+          </div>
+          <div class="panel-figure">
+            <i class="fa-solid fa-book-open fa-bounce"></i>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header">Education</h4>
+            <p class="m-0"><small>Education for children</small></p>
+          </div>
+          <div class="panel-thumbnails">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p class="m-0">1</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="panel panel-default panel-card" data-aos="zoom-in" data-aos-delay="10" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
+          <div class="panel-heading">
+            <img src="img-2.jpeg" alt="" />
+          </div>
+          <div class="panel-figure">
+            <i class="fa-solid fa-stethoscope fa-bounce"></i>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header">Health</h4>
+            <p class="m-0"><small>Medicine for needed people</small></p>
+          </div>
+          <div class="panel-thumbnails">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p class="m-0">2</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="panel panel-default panel-card" data-aos="zoom-in" data-aos-delay="10" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
+          <div class="panel-heading">
+            <img src="img-3.jpg" alt="" />
+          </div>
+          <div class="panel-figure">
+            <i class="fa-solid fa-house-circle-check fa-bounce"></i>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header">Shelter</h4>
+            <p class="m-0"><small>Shelter for homeless people</small></p>
+          </div>
+          <div class="panel-thumbnails">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p class="m-0">3</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="panel panel-default panel-card" data-aos="zoom-in" data-aos-delay="10" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
+          <div class="panel-heading">
+            <img src="img-4.jpg" alt="" />
+          </div>
+          <div class="panel-figure">
+            <i class="fa-solid fa-dog fa-bounce"></i>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header">Animal Care</h4>
+            <p class="m-0"><small>Shelter and adoption for animals</small></p>
+          </div>
+          <div class="panel-thumbnails">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p class="m-0">4</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- vision -->
+
+    <div class="container mb-3 mb-md-5">
+      <div class="row text-center" id="vision">
+        <div class="col-12 text-center">
+          <h1>
+            <img src="love-icon.png" alt="" class="m-0" width="15px" />
+            <br />
+            Causes and positive change <br class="d-none d-md-block" />
+            all over the world.
+            <br />
+            <img src="sketch-2.png" alt="" width="250px" />
+          </h1>
+        </div>
+        <div class="col-md-4">
+          <section>
+            <img
+              src="mission.png"
+              alt=""
+              class="img-fluid"
+              width="60px"
+            />
+          </section>
+          <h4>Our Mission</h4>
+          <p class="m-3">
+           We want to revolutionize volunteerism by providing a centralized, user-friendly platform that fosters collaboration, communication, and effective coordination among volunteers, NGOs, and community members
+          </p>
+        </div>
+        <div class="col-md-4">
+          <section>
+            <img
+              src="vision.png"
+              alt=""
+              class="img-fluid"
+              width="60px"
+            />
+          </section>
+          <h4>Our Vision</h4>
+          <p class="m-3">
+            We envision a platform that serves as a catalyst for social impact, where individuals and organizations can easily connect, collaborate, and contribute to meaningful causes
+          </p>
+        </div>
+        <div class="col-md-4">
+          <section>
+            <img src="value.png" alt="" class="img-fluid" width="60px" />
+          </section>
+          <h4>Our Values</h4>
+          <p class="m-3">
+            We are dedicated to creating an inclusive and collaborative platform that empowers individuals and organizations to make a meaningful impact in their communities while upholding the values of transparency, innovation, and accountability.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- achieve -->
+
+    <section class="container-fluid mb-5" id="achieve">
+      <div class="row py-md-5 py-5">
+        <div class="col-12 text-center">
+          <img src="we-use-icon.png" alt="" width="60px" />
+          <h1>
+            This is the impact you helped <br class="d-none d-md-block" />
+            us achieve in 2023-24
+          </h1>
+        </div>
+        <div class="row text-center count_div">
+          <section class="col-sm-6 col-md-3">
+            <img src="" alt="" />
+            <p class="pt-2"><span id="number1">0</span>+</p>
+            <h5 class="">
+              Gave Education To The <br />
+              Uneducated Children
+            </h5>
+          </section>
+          <section class="col-sm-6 col-md-3">
+            <img src="" alt="" />
+            <p class="pt-2"><span id="number2">0</span>+</p>
+            <h5 class="g-0">
+              Gave Food To The <br />
+              Needed People
+            </h5>
+          </section>
+          <section class="col-sm-6 col-md-3">
+            <img src="" alt="" />
+            <p class="pt-2"><span id="number3">0</span>+</p>
+            <h5 class="">
+              Gave Shelter To The <br />
+              Needed People
+            </h5>
+          </section>
+          <section class="col-sm-6 col-md-3">
+            <img src="" alt="" />
+            <p class="pt-2"><span id="number4">0</span>+</p>
+            <h5 class="">
+              Provided Shelter And <br />
+              Adoption For Animals
+            </h5>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="container mb-5" id="event">
+
+    <div class="container mb-5">
+      <div class="row my-3">
+        <div class="col text-center">
+          <img src="love-icon.png" alt="" width="20px" />
+          <p class="m-0">READY TO HELP THEM</p>
+          <h1>Upcoming Events</h1>
+        </div>
+      </div>
+      <div class="row text-center" id="event">
+        <div
+          class="col-md-6 col-lg-4"
+          data-aos="flip-left"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card">
+            <span> 25 Mar </span>
+            <img src="img-5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5>Provide Free Tuition Session</h5>
+              <p class="text-muted">
+                <small
+                  >Spend a day to teach
+                  <br class="d-none d-md-block" />
+                 </small
+                >
+              </p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-6 col-lg-4"
+          data-aos="fade-up"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card">
+            <span> 1 Apr </span>
+            <img src="img-6.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5>Opening New Shelter Home</h5>
+              <p class="text-muted">
+                <small
+                  >Let's Build a Shelter
+                  <br class="d-none d-md-block" />
+                  </small
+                >
+              </p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-6 col-lg-4"
+          data-aos="flip-right"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="card">
+            <span> 2 Aug </span>
+            <img src="img-7.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5>Opening New Free Clinics</h5>
+              <p class="text-muted">
+                <small
+                  >Let's treat the needy
+                  <br class="d-none d-md-block" />
+                  </small
+                >
+              </p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- team & testimonials -->
+
+<section class="container-fluid mb-5">
+  <div class="row py-md-5" id="team">
+    <section class="col-md-6 text-center mb-3 mb-md-0">
+      <h1 class="m-4 pb-md-5">Meet Our Team</h1>
+      <div class="d-md-flex pt-4 pt-md-3">
+        <div class="d-flex flex-column align-items-center">
+          <img src="testimonial (2).jpeg" style="width:300px; height:300px;" alt="" />
+          <h5>
+            Adithya Pulapalli<br />
+            <span>Developer</span>
+          </h5>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <img src="testimonial (2).jpeg"  style="width:300px; height:300px;" alt="" />
+          <h5>
+            Hemanth Reddy <br />
+            <span>Developer</span>
+          </h5>
+        </div>
+      </div>
+
+      <div class="d-md-flex pt-3">
+        <div class="d-flex flex-column align-items-center">
+          <img src="testimonial (2).jpeg"  style="width:300px; height:300px;" alt="" />
+          <h5>
+            Vachan Thirunagari<br />
+            <span>Developer</span>
+          </h5>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <img src="testimonial (2).jpeg"  style="width:300px; height:300px;" alt="" />
+          <h5>
+            Sasi Kumar Reddy<br />
+            <span>Developer </span>
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="col-md-6 text-center px-md-5 mb-5 mb-md-0">
+      <h1 class="m-4 pb-md-5">What People Says</h1>
+      <div
+        id="review_carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+<!-- Wrapper for carousel items -->
+<div class="carousel-inner mt-md-5 mt-3">
+  <div class="carousel-item active">
+    <div class="row">
+      <div class="col-12">
+        <div class="testimonial-wrapper">
+          <div>
+            <img src="quote-1.png" alt="" /> <br />
+            <p class="m-2 m-md-4">
+              Leveraging this application has enabled us gather volunteers for a cause like never before!
+            </p>
+            <h5>
+             Ganga(NGO)
+              <img src="love-icon.png" alt="" width="15px" />
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-12">
+        <div class="testimonial-wrapper">
+          <div>
+            <img src="quote-1.png" alt="" /> <br />
+            <p class="m-2 m-md-4">
+              I am able to do good deeds back to the society.
+            </p>
+            <h5>
+              Advaith(Software Engineer)
+              <img src="love-icon.png" alt="" width="15px" />
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-12">
+        <div class="testimonial-wrapper">
+          <div>
+            <img src="quote-1.png" alt="" /> <br />
+            <p class="m-2 m-md-4">
+              I had the best time during this volunteer program, i learnt a lot regarding to building shelters and teaching.
+            </p>
+            <h5>
+              Lohit(Student)
+              <img src="love-icon.png" alt="" width="15px" />
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+    <!-- helping hand -->
+    <section class="container-fluid border" id="helping_hand">
+      <div class="row px-md-5 d-flex align-items-center">
+        <div class="col-md-6 p-3 ps-md-5 text-center text-md-start">
+          <img src="love-icon.png" alt="" width="15px" /> <br />
+          <small>HELPING HANDS</small>
+          <h1 class="my-3">
+            We're Here to Help <br />
+            People in Need
+          </h1>
+          <p>
+            we're here to help connect people in need with volunteers and resources, fostering a community-driven approach to addressing social challenges and making a positive impact in society.
+          </p>
+          <div class="text-end d-none d-md-block">
+            <img src="arrow.png" alt="" id="hh_img1" />
+          </div>
+        </div>
+        <div class="col-md-6 text-center" id="hh_img2">
+          <img src="img-8.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- become helper -->
+
+    <section class="container pb-4" id="help">
+      <div class="row" id="volunteer">
+        <div class="col-12 text-center">
+          <img src="sketch-3.png" alt="" width="250px" />
+          <h1 class="">
+            Help People Change Lives <br class="d-none d-md-block" />
+            Locally and Around <br class="d-none d-md-block" />
+            The World
+          </h1>
+        </div>
+        <div class="my-3 my-md-5 text-center">
+          <a href=""></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="container-fluid text-center text-md-start" id="footer">
+      <div class="row py-5">
+        <div class="col-md-4 ps-md-5">
+          <img src="C:\New folder\138\logo.jpg" style="width:200px;height:200px"alt="" class="img-fluid ps-md-5" />
+          <p class="pt-3 ps-md-5 pe-md-4 text-white">
+           
+          </p>
+        </div>
+        
+        <div class="col-md-4 f_contact">
+          <h4>Contact</h4>
+          
+          <a href="">
+            <i class="fa-solid fa-paper-plane"></i> SahayaMitra@gmail.com
+          </a>
+          <a href=""> <i class="fa-solid fa-phone"></i> +9192939495 </a>
+          <a href=""> <i class="fa-solid fa-house"></i> Address </a>
+          <a href="">
+            ABC Block Society, 
+            Kompally,
+            Hyderabad 500014
+          </a>
+          <a href="">feedback.html</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
